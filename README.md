@@ -1,3 +1,5 @@
 # random-C-monogame
 
-this is just a random c# monogame for me to play around with, i have no idea what i am doing so look around
+thsi is just a side project that i am doing.
+
+the way to run the game is to go thru monotest/bin/debug/net8.0-windows/monotest.exe and run it 
