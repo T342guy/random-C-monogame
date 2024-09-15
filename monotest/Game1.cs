@@ -45,10 +45,33 @@ public class Game1 : Game
     {
         if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
             Exit();
-
-    
         // TODO: Add your update logic here
         
+        //input logic below
+        float updatedballspeed = melvinspeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+
+        var kstate = Keyboard.GetState();
+
+        if (kstate.IsKeyDown(Keys.W))
+        {
+            melvinposition.Y -= updatedballspeed;
+        }
+
+        if (kstate.IsKeyDown(Keys.S))
+        {
+            melvinposition.Y += updatedballspeed; 
+        }
+
+        if (kstate.IsKeyDown(Keys.A))
+        {
+            melvinposition.X -= updatedballspeed;
+        }
+
+        if (kstate.IsKeyDown(Keys.D))
+        {
+            melvinposition.X += updatedballspeed;
+        }
+        // input logic ends. 
 
         base.Update(gameTime);
     }
