@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\compu\\Documents\\VScode projects\\monotest\\monotest\\monotest.csproj": {}
+    "C:\\Users\\compu\\Documents\\GitHub\\random-C-monogame\\monotest\\monotest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\compu\\Documents\\VScode projects\\monotest\\monotest\\monotest.csproj": {
+    "C:\\Users\\compu\\Documents\\GitHub\\random-C-monogame\\monotest\\monotest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\compu\\Documents\\VScode projects\\monotest\\monotest\\monotest.csproj",
+        "projectUniqueName": "C:\\Users\\compu\\Documents\\GitHub\\random-C-monogame\\monotest\\monotest.csproj",
         "projectName": "monotest",
-        "projectPath": "C:\\Users\\compu\\Documents\\VScode projects\\monotest\\monotest\\monotest.csproj",
+        "projectPath": "C:\\Users\\compu\\Documents\\GitHub\\random-C-monogame\\monotest\\monotest.csproj",
         "packagesPath": "C:\\Users\\compu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\compu\\Documents\\VScode projects\\monotest\\monotest\\obj\\",
+        "outputPath": "C:\\Users\\compu\\Documents\\GitHub\\random-C-monogame\\monotest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\compu\\AppData\\Roaming\\NuGet\\NuGet.Config"
